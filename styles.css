@@ -1,2 +1,17 @@
 
 /* Your CSS Code here. */
+.parent-box{
+	display:flex;
+	justify-content:space-between;
+	
+}
+.box{
+	width:100px;
+	height:100px;
+	background-color:green;
+	margin:8px;
+}
+.parent-2{
+	display:flex;
+	flex-wrap:wrap;
+}
